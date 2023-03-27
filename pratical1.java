@@ -8,3 +8,7 @@
  * your program prints “The equation has no solution".
  * Note: (1) 3.4x+50.2y=44.5 (2) 2.1x+.55y=5.9
  */
+
+ public static void name() {
+    
+ }
