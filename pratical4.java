@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 public class pratical4{
     public static void main(String[] args){
-        Scanner myObj = new Scanner(System.in)
+        Scanner myObj = new Scanner(System.in);
 
-        System.out.println("Enter the Number:(Integer)");
+        System.out.print("Enter the Number(in Integer) : ");
         int num = myObj.nextInt();
         boolean isPrime = true;
         for(int i = 2;i<num;i++){
@@ -17,6 +17,12 @@ public class pratical4{
                 isPrime = false;
                 break;
             }
+        }
+        if(isPrime){
+            System.out.println(num+" is a Prime Number");
+            return ;
+        } else {
+            System.out.println(num+" is a Prime Not a Number");
         }
 
 
