@@ -1,15 +1,14 @@
 // Write a program that prompts the user to enter three integers and display the maximum number among these numbers.
-
 import java.util.Scanner;
 
 public class pratical5{
     public static void main(String[] agrs){
         Scanner myObj = new Scanner(System.in);
-        System.out.print("Enter the first Number : ");
+        System.out.print("Enter the first Number: ");
         int num1 = myObj.nextInt();
-        System.out.print("Enter the second Number : ");
+        System.out.print("Enter the second Number: ");
         int num2 = myObj.nextInt();
-        System.out.print("Enter the third Number : ");
+        System.out.print("Enter the third Number: ");
         int num3 = myObj.nextInt();
         int maxNumber;
         if(num1>=num2){
