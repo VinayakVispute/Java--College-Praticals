@@ -14,7 +14,7 @@ public class practical11 {
         System.out.println("The 100 random numbers are as follows:");
         for (int i = 0; i < 100; i++) {
             System.out.print(randomNumbers[i] + " ");
-            if (i % 10 == 0) {
+            if ( i % 10 == 0) {
                 System.out.println();
             }
         }
