@@ -4,13 +4,13 @@ abstract class A{
 
 class A1 extends A{
     public void display(){
-        System.out.println("This is A1's display method.");
+        System.out.println("This is A1's Display method.");
     }
 }
 
 class A2 extends A{
     public void display(){
-        System.out.println("This is A2's display method.");
+        System.out.println("This is A2's Display method.");
     }
 }
 
