@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // Write a program to check the given number is Prime or not
 
 import java.util.Scanner;
